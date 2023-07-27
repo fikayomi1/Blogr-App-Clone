@@ -1,0 +1,38 @@
+.Fifth{
+    background-color: hsl(240, 10%, 16%);
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    justify-content: space-around;
+    padding: 5% 5%;
+    /* height: 50vh; */
+    display: flex;
+    line-height: 28px;
+    border-top-right-radius: 78px;
+}
+.Fifth p{
+    font-weight: bold;
+    padding-bottom: 10%;
+}
+
+.Fifth li{
+    list-style-type: none;
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 650px) {
+    .Fifth{
+        display:flex;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .Name{
+        padding-bottom: 2% ;
+    }
+    .Fifth p{
+        padding-top: 6%;
+        padding-bottom: 0;
+
+    }
+
+}

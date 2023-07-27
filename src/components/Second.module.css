@@ -1,0 +1,68 @@
+.Second{
+    background: url("../components/illustration-editor-desktop.svg") no-repeat;
+    background-position-x: 170%;
+    background-position-y: 40%;
+    height: 100vh;
+    padding: 3% 0;
+    
+    
+    
+}
+.title{
+    text-align: center;
+    color: hsl(207, 13%, 34%);
+}
+
+.part{
+    display: flex;
+    margin: 3% 0;
+    /* border: 2px solid black; */
+    
+    
+}
+
+.text{
+    width: 50%;
+    color: hsl(207, 13%, 34%);
+    padding: 4%;
+    
+}
+@media screen and (max-width: 1250px) {
+    .Second{
+        padding: 20% 0;
+        height: 100%;
+        background: none;
+    }
+    
+    .part{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 2% 3%;
+        margin: 0 auto;
+    }
+    .text{
+         
+         width: 100%;
+         padding: 2% 10%;
+    }
+    .text2{
+        margin: 0 auto;
+        width: 100%;
+        height: 50%;
+        
+    }
+    .text h2{
+        text-align:center;
+
+    }
+    .text2{
+        width: 100%;
+        margin: 0 auto;
+        background: url("../components/illustration-editor-desktop.svg") no-repeat;
+        background-size: contain;
+         background-position-x: 50%;
+        height: 40vh;
+    }
+
+}

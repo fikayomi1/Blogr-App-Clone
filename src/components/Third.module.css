@@ -1,0 +1,35 @@
+.Third{
+    background:  radial-gradient(rgba(6, 9, 38, 0.8), rgba(9, 15, 63, 0.867)), url("../components/illustration-phones.svg") no-repeat;
+    background-position-x: 25%;
+    margin-top: 10%;
+    display: flex;
+    border-bottom-left-radius: 88px;
+}
+.space{
+    width: 50%;
+    /* border: 2px solid black; */
+}
+
+.text{
+    width: 50%;
+    color: hsl(0, 6%, 74%);
+    padding: 9% 5%;
+    /* border: 2px solid black; */
+}
+
+@media screen and (max-width: 750px) {
+    .Third{
+        background:  radial-gradient(rgba(6, 8, 33, 0.897), rgba(7, 10, 35, 0.905)), url("../components/illustration-phones.svg") no-repeat;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .space{
+        width: 0;
+    }
+    .text{
+        justify-content: center;
+        width: 86%;
+        margin: 0 auto;
+    }
+}
